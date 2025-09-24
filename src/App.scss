@@ -2,6 +2,7 @@
 @use "@openedx/paragon/styles/css/core/custom-media-breakpoints" as paragonCustomMediaBreakpoints;
 
 $fa-font-path: "~font-awesome/fonts";
+$component-active-bg: #0075b4; // or whatever color you prefer
 @import "~font-awesome/scss/font-awesome";
 
 $input-focus-box-shadow: var(--pgn-elevation-form-input-base); // hack to get upgrade to paragon 4.0.0 to work
